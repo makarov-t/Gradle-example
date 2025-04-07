@@ -1,3 +1,4 @@
+// MyService.java
 package ru.netology.service;
 
 import ru.netology.db.DbSetting;
@@ -6,10 +7,9 @@ import ru.netology.db.MyEntity;
 import java.util.UUID;
 
 public class MyService {
-
     private DbSetting dbSetting = new DbSetting("name", "password");
     private String name = "myService";
-    private Db db = new Db(dbSetting);
+    private ru.netology.db.Db db = new ru.netology.db.Db(dbSetting);
 
     public String getName() {
         return name;
