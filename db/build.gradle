@@ -14,10 +14,6 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter'
 }
 
-subprojects {
-    apply plugin: 'java'
-}
-
 test {
     useJUnitPlatform()
 }
